@@ -20,6 +20,22 @@ $materialize-red: (
   "darken-4":   #8b1014,
 );
 
+$blue-topaz: (
+  "base": #67AECA,
+);
+
+$amethyst: (
+  "base": #675682,
+);
+
+$jewel: (
+  "base": #5F0F4E,
+);
+
+$rose: (
+  "base": #E52A6F,
+);
+
 $red: (
   "base":       #F44336,
   "lighten-5":  #FFEBEE,
@@ -339,6 +355,10 @@ $shades: (
 
 $colors: (
   "materialize-red": $materialize-red,
+  "blue-topaz": $blue-topaz,
+  "amethyst": $amethyst,
+  "jewel": $jewel,
+  "rose": $rose,
   "red": $red,
   "pink": $pink,
   "purple": $purple,
@@ -409,4 +429,3 @@ $colors: (
   @warn "Unknown `#{name}` in $colors.";
   @return null;
 }
-

@@ -1,0 +1,29 @@
+.bold-text {
+  font-weight: 700;
+}
+
+.medium-text {
+  font-weight: 500;
+}
+
+.regular-text {
+  font-weight: 400;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
+.thin-text {
+  font-weight: 100;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}

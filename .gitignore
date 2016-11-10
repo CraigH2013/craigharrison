@@ -1,2 +1,6 @@
 # Mac OSX DS_Store file
 .DS_Store
+
+.sass-cache/
+
+css/materialize.min.css.map

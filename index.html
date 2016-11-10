@@ -27,15 +27,15 @@
                 <li><a href="activites.html">Activites</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
-              <ul class="side-nav" id="mobile-demo">
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="activities.html">Activites</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
             </div>
           </nav>
         </div>
       </header>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="activities.html">Activites</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
 
       <main>
         <div class="parallax-container" style="height:300px;">
@@ -113,9 +113,8 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
 
       <script>
-
+      $(".button-collapse").sideNav();
       $(document).ready(function(){
-        $(".button-collapse").sideNav();
         $('.parallax').parallax();
       });
 
